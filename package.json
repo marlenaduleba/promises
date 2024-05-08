@@ -1,0 +1,13 @@
+{
+  "name": "arrays",
+  "version": "1.0.0",
+  "description": "Collection of exercises and solutions for advanced array manipulation tasks in Node.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Marlena Dulęba",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
