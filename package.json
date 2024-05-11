@@ -1,7 +1,7 @@
 {
-  "name": "arrays",
+  "name": "promises",
   "version": "1.0.0",
-  "description": "Collection of exercises and solutions for advanced array manipulation tasks in Node.js",
+  "description": "Implementations of various Promise functions in Node.js, including promiseAll, promiseAllSettled, chainPromises, and promisify",
   "scripts": {
     "test": "jest"
   },
