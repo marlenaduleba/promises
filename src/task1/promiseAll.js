@@ -25,7 +25,7 @@ function promiseAll(promisesArr) {
   });
 }
 
-module.exports = promiseAll;
+// Example od use
 
 const promises = [Promise.resolve(1), Promise.resolve(2), Promise.resolve(3)];
 
@@ -36,3 +36,5 @@ promiseAll(promises)
   .catch((error) => {
     console.error("At least one promise rejected:", error);
   });
+
+module.exports = promiseAll;

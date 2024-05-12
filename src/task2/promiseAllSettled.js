@@ -26,7 +26,7 @@ function promiseAllSettled(promisesArr) {
   });
 }
 
-module.exports = promiseAllSettled;
+// Example od use
 
 const promises = [
   Promise.resolve(1),
@@ -40,3 +40,5 @@ promiseAllSettled(promises).then((results) => {
   //            { status: 'rejected', reason: 'Error occurred' },
   //            { status: 'fulfilled', value: 3 }]
 });
+
+module.exports = promiseAllSettled;

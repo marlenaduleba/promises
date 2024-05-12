@@ -6,6 +6,8 @@ function chainPromises(functionsArr) {
   }, Promise.resolve());
 }
 
+// Example od use
+
 function asyncFunction1() {
   return Promise.resolve("Result from asyncFunction1");
 }
